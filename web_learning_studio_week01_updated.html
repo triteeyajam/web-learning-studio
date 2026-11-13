@@ -22,7 +22,7 @@ fields.forEach(id=>$(id).addEventListener('input',render));$('viewButton').addEv
 
 // Week 01 enhancement: local draft, printable portfolio and server submission.
 const STORAGE_KEY='webquest-week01-draft-v2';
-const SUBMISSION_URL=''; // วาง URL /exec ของ Google Apps Script หลัง deploy
+const SUBMISSION_URL='https://script.google.com/macros/s/AKfycbyhje1FBRVRr29LWboxqVKpJSXcP6aOvkDretjeNwZAXtFPttQ7ZD_YZ9O8llAg3Jaz/exec'; // วาง URL /exec ของ Google Apps Script หลัง deploy
 let projectId='';let lastSubmissionId='';let saveTimer;
 function newProjectId(){return 'PRJ-'+(crypto.randomUUID?crypto.randomUUID():Date.now().toString(36)+'-'+Math.random().toString(36).slice(2));}
 function memberNames(){return $('members').value.split(/\r?\n/).map(v=>v.trim()).filter(Boolean).slice(0,50)}
