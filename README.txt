@@ -1,3 +1,0 @@
-LAB 02 Classroom Edition — candidate build
-Upload the lab02 folder intact, including images, to repository root. Do not overwrite Week 01. Open /lab02/ after GitHub Pages publishes. guide.html is teacher-led fallback.
-Manual submission: download HTML or TXT backup. No backend or automatic submission. Plain text editor, basic educational subset validator, teacher image library only. Preview disables all link navigation; destination displayed separately. External HTTPS images contact their host and may fail offline. Browser storage is local; back up before clearing data. Browser runtime testing blocked in build environment; verify before class. Do not treat as security-certified. No root index changes.
